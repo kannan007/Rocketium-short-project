@@ -1,0 +1,450 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+body .landing-page {
+  background-image: url("images/bg_light.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+body .landing-page .header ul.nav-bar-left li.left {
+  font-weight: bold;
+}
+body .landing-page .header ul.nav-bar-left li.left img {
+  height: 50px;
+}
+body .landing-page .header ul.nav-bar-left li.left a {
+  font-size: 20px;
+}
+body .landing-page .header ul.nav-bar-right li.right {
+  padding-right: 25px;
+}
+body .landing-page .header ul.nav-bar-right li.right a {
+  font-size: 18px;
+}
+body .landing-page .header ul.nav-bar-right li.right a img {
+  height: 15px;
+  padding-left: 10px;
+}
+body .landing-page .header ul.nav-bar-right li.right button {
+  border-radius: 25px;
+  background-color: #332F53;
+  color: white;
+  padding: 5px 25px;
+  font-size: 15px;
+}
+body .landing-page ul.nav-bar-left,
+body .landing-page ul.nav-bar-right {
+  list-style-type: none;
+  padding: 20px;
+}
+body .landing-page ul.nav-bar-left li,
+body .landing-page ul.nav-bar-right li {
+  display: inline-block;
+  line-height: 50px;
+}
+body .landing-page ul.nav-bar-left li a,
+body .landing-page ul.nav-bar-right li a {
+  color: #000000;
+  padding: 0;
+}
+body .landing-page ul.nav-bar-left li a:hover,
+body .landing-page ul.nav-bar-right li a:hover {
+  background-color: white;
+}
+body .landing-page .home {
+  padding: 75px 25px 25px 25px;
+}
+body .landing-page .home .home-page-text {
+  padding-top: 5px;
+}
+body .landing-page .home .home-page-text h1 {
+  font-size: 4.6vw;
+  font-weight: bold;
+  color: #332F53;
+  letter-spacing: 2px;
+  line-height: 100%;
+}
+body .landing-page .home .home-page-text p {
+  font-size: 2.4vw;
+  color: #836670;
+  margin: 0;
+}
+body .landing-page .home .home-page-text p.first-line {
+  padding-top: 25px;
+}
+body .landing-page .home .home-page-text p.last-line {
+  padding-bottom: 35px;
+}
+body .landing-page .home .home-page-text button {
+  width: 100%;
+  background-color: #F9DC54;
+  color: #6C2F53;
+  border-radius: 25px;
+}
+body .landing-page .home .home-page-text .col-md-6,
+body .landing-page .home .home-page-text .col-md-5 {
+  padding-left: 0;
+}
+body .landing-page .home .home-page-video video {
+  max-width: 100%;
+  max-height: 100%;
+}
+body .landing-page .home .home-page-video p {
+  text-align: center;
+}
+body .landing-page .home .home-page-video p a {
+  color: #CE9FCF;
+  line-height: 35px;
+  font-size: 15px;
+}
+body .landing-page .home .home-page-video p a span img {
+  text-align: center;
+  height: 35px;
+  padding-right: 20px;
+}
+body .landing-page .home .home-page-video p a:hover {
+  text-decoration: none;
+}
+body .landing-page .home-bottom p {
+  text-align: center;
+  color: #D1AFB3;
+  font-size: 26px;
+}
+body .landing-page .home-bottom ul {
+  text-align: center;
+  list-style-type: none;
+}
+body .landing-page .home-bottom ul li {
+  display: inline-block;
+}
+body .landing-page .home-bottom ul li img {
+  padding-right: 20px;
+}
+body .benefits_1,
+body .benefits_3 {
+  background-image: url("images/bg_light.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding: 0;
+}
+body .benefits_1 .background,
+body .benefits_3 .background {
+  border: 1px solid white;
+  background-color: #FAE378;
+  transform: skewX(20deg);
+  margin-left: -85px;
+}
+body .benefits_1 .background .benefits_3-text,
+body .benefits_3 .background .benefits_3-text,
+body .benefits_1 .background .benefits_1-text,
+body .benefits_3 .background .benefits_1-text {
+  transform: skewX(-20deg);
+  padding-right: 150px;
+  margin-left: 100px;
+}
+body .benefits_1 .background .benefits_3-text h2,
+body .benefits_3 .background .benefits_3-text h2,
+body .benefits_1 .background .benefits_1-text h2,
+body .benefits_3 .background .benefits_1-text h2 {
+  font-size: 2.25vw;
+  line-height: 1.30;
+}
+body .benefits_1 .background .benefits_3-text h2 span,
+body .benefits_3 .background .benefits_3-text h2 span,
+body .benefits_1 .background .benefits_1-text h2 span,
+body .benefits_3 .background .benefits_1-text h2 span {
+  border-bottom: 3px solid #595959;
+}
+@media screen and (min-width: 1256px) {
+  body .benefits_1 .background .benefits_3-text h2,
+  body .benefits_3 .background .benefits_3-text h2,
+  body .benefits_1 .background .benefits_1-text h2,
+  body .benefits_3 .background .benefits_1-text h2 {
+    font-size: 3vw;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1255px) {
+  body .benefits_1 .background .benefits_3-text h2,
+  body .benefits_3 .background .benefits_3-text h2,
+  body .benefits_1 .background .benefits_1-text h2,
+  body .benefits_3 .background .benefits_1-text h2 {
+    font-size: 2.42vw;
+  }
+}
+body .benefits_1 .background .benefits_3-text h3,
+body .benefits_3 .background .benefits_3-text h3,
+body .benefits_1 .background .benefits_1-text h3,
+body .benefits_3 .background .benefits_1-text h3 {
+  background-color: #332F53;
+  color: white;
+  font-size: 2.04vw;
+  padding: 3px 0;
+  margin: 30px 0 30px 0;
+}
+body .benefits_1 .background .benefits_3-text p,
+body .benefits_3 .background .benefits_3-text p,
+body .benefits_1 .background .benefits_1-text p,
+body .benefits_3 .background .benefits_1-text p {
+  font-size: 1.45vw;
+  letter-spacing: 1px;
+  margin: 0;
+}
+@media screen and (min-width: 1204px) {
+  body .benefits_1 .background .benefits_3-text p,
+  body .benefits_3 .background .benefits_3-text p,
+  body .benefits_1 .background .benefits_1-text p,
+  body .benefits_3 .background .benefits_1-text p {
+    font-size: 1.80vw;
+  }
+}
+body .benefits_1 .background .benefits_3-text p.last-line,
+body .benefits_3 .background .benefits_3-text p.last-line,
+body .benefits_1 .background .benefits_1-text p.last-line,
+body .benefits_3 .background .benefits_1-text p.last-line {
+  padding: 30px 0;
+}
+body .benefits_1 .benefits_1-video,
+body .benefits_3 .benefits_1-video,
+body .benefits_1 .benefits_3-video,
+body .benefits_3 .benefits_3-video {
+  padding: 50px 0 0 75px;
+}
+body .benefits_1 .benefits_1-video video,
+body .benefits_3 .benefits_1-video video,
+body .benefits_1 .benefits_3-video video,
+body .benefits_3 .benefits_3-video video {
+  max-width: 100%;
+  max-height: 100%;
+}
+body .benefits_2 {
+  background-image: url("images/bg_light.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding: 0;
+  overflow: hidden;
+}
+body .benefits_2 .benefits_2-video {
+  padding: 50px 75px 0 15px;
+}
+body .benefits_2 .benefits_2-video video {
+  max-width: 100%;
+  max-height: 100%;
+}
+body .benefits_2 .background {
+  border: 1px solid white;
+  background-color: #FAE378;
+  transform: skewX(20deg);
+  margin-left: 85px;
+  margin-right: -150px;
+}
+body .benefits_2 .background .benefits_2-text {
+  transform: skewX(-20deg);
+  padding-left: 85px;
+  margin-right: 165px;
+}
+body .benefits_2 .background .benefits_2-text h2 {
+  font-size: 2.25vw;
+  line-height: 1.30;
+}
+body .benefits_2 .background .benefits_2-text h2 span {
+  border-bottom: 3px solid #595959;
+}
+@media screen and (min-width: 1256px) {
+  body .benefits_2 .background .benefits_2-text h2 {
+    font-size: 3vw;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1255px) {
+  body .benefits_2 .background .benefits_2-text h2 {
+    font-size: 2.42vw;
+  }
+}
+body .benefits_2 .background .benefits_2-text h3 {
+  background-color: #332F53;
+  color: white;
+  font-size: 2.04vw;
+  padding: 3px 0;
+  margin: 30px 0 30px 0;
+}
+body .benefits_2 .background .benefits_2-text p {
+  font-size: 1.45vw;
+  letter-spacing: 1px;
+  margin: 0;
+}
+@media screen and (min-width: 1204px) {
+  body .benefits_2 .background .benefits_2-text p {
+    font-size: 1.80vw;
+  }
+}
+body .benefits_2 .background .benefits_2-text p.last-line {
+  padding: 30px 0;
+}
+body .features-app .get-the-app {
+  background-color: #332F53;
+  color: #FFFFFF;
+  padding: 40px 50px 40px 50px;
+}
+body .features-app .get-the-app h3 {
+  font-size: 36px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+body .features-app .get-the-app p {
+  font-size: 24px;
+  margin: 0;
+}
+body .features-app .get-the-app img {
+  float: left;
+}
+body .features-app .get-the-app ul {
+  list-style-type: none;
+  margin-left: 75px;
+}
+body .features-app .get-the-app ul li {
+  padding-bottom: 20px;
+}
+body .features-app .get-the-app ul li img {
+  height: 40px;
+  float: none;
+}
+body .features-app .features {
+  background-color: #F4F5F7;
+  padding-bottom: 40px;
+}
+body .features-app .features h1 {
+  color: #000000;
+  text-align: center;
+  padding: 40px 0;
+  font-size: 42px;
+  letter-spacing: 1px;
+}
+body .features-app .features .left-side ul,
+body .features-app .features .right-side ul {
+  list-style-type: none;
+  text-align: center;
+}
+body .features-app .features .left-side ul li,
+body .features-app .features .right-side ul li {
+  padding-bottom: 15px;
+  color: #3F4240;
+  line-height: 25px;
+  font-size: 18px;
+}
+body .features-app .features .left-side ul li span img,
+body .features-app .features .right-side ul li span img {
+  height: 25px;
+  padding-right: 10px;
+}
+body .features-app .features .right-side ul {
+  float: left;
+}
+body .end-page {
+  background-image: url("images/bg_light.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+body .end-page .sign-up-page {
+  padding: 40px 20px;
+  text-align: center;
+}
+body .end-page .sign-up-page h1 {
+  text-align: center;
+  color: #332F53;
+  font-weight: bold;
+  font-size: 48px;
+  letter-spacing: 1px;
+}
+body .end-page .sign-up-page p {
+  text-align: center;
+  font-size: 30px;
+  color: #520000;
+  margin: 0;
+  padding: 25px 0 25px;
+}
+body .end-page .sign-up-page ul {
+  text-align: center;
+  list-style-type: none;
+}
+body .end-page .sign-up-page ul li {
+  display: inline-block;
+  padding-right: 5px;
+}
+body .end-page .sign-up-page ul li input {
+  border: 1px solid #8D8B9F;
+  border-radius: 15px;
+  padding: 5px 20px;
+}
+body .end-page .sign-up-page ul li button {
+  background-color: #F9DC54;
+  color: #007041;
+  border: 1px solid #79747D;
+  border-radius: 0;
+  font-size: 16px;
+  padding: 5px 20px;
+}
+body .end-page .footer {
+  background-color: #F4F5F7;
+  padding: 40px 120px;
+  text-align: center;
+}
+@media screen and (min-width: 1226px) {
+  body .end-page .footer {
+    padding: 40px 180px;
+  }
+}
+body .end-page .footer ul {
+  list-style-type: none;
+  text-align: left;
+  float: left;
+  margin-left: 70px;
+  padding: 0;
+}
+@media screen and (min-width: 1226px) {
+  body .end-page .footer ul {
+    margin-left: 100px;
+  }
+}
+body .end-page .footer ul li {
+  color: #666666;
+  font-size: 15px;
+}
+body .end-page .footer ul li h4 {
+  color: #7E004F;
+  margin-bottom: 5px;
+}
+body .end-page .footer ul.icons {
+  float: none;
+}
+body .end-page .footer ul.icons li {
+  line-height: 30px;
+  padding-top: 10px;
+  display: inline-block;
+  padding-left: 3px;
+}
+body .end-page .footer ul.icons li.first-item {
+  margin-left: 70px;
+}
+@media screen and (min-width: 1226px) {
+  body .end-page .footer ul.icons li.first-item {
+    margin-left: 100px;
+  }
+}
+body .end-page .footer ul.icons img {
+  height: 30px;
+}
+body .end-page .footer ul.last {
+  float: none;
+}
+body .end-page .footer ul.last li {
+  padding-top: 0;
+}
+body .end-page .footer ul.last li a {
+  color: #666666;
+}
+body .end-page .footer ul.last li a:hover {
+  text-decoration: none;
+}
